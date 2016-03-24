@@ -52,19 +52,7 @@ This starter kit implements best practices like minification, bundling, and so o
 
 ### What's happening under the hood when I run `npm start`?
 
-Webpack serves your app in memory when you run `npm start`. No physical files are written. However, the web root is /src, so you can reference files under /src in index.html. When the app is built using `npm run build`, physical files are written to `/build` folder and the app is served from `/build`.
-
-### How is Sass being processed?
-
-We're handling it differently in DEV vs PROD.
-
-When you run `npm start`:
-
- 1. The sass-loader compiles Sass into CSS
- 2. Webpack bundles the compiled CSS into app.js. Sounds weird, but it works!
- 3. app.js contains code that loads styles into the &lt;head&gt; section of index.html via JavaScript. This is why there is no stylesheet reference in index.html. In fact, if you disable JavaScript in your browser, you'll see the styles don't load either.
-
-The approach above supports hot reloading, which is great for development. However, it also create a flash of unstyled content on load because you have to wait for the JavaScript to parse and load styles before they're applied. So for the production build, we use a different approach:
+Webpack serves your app in memory when you run `npm start`. No physical files are written. However, the web root is /src, so you can reference files under /src in index.html.
 
 ### How do I deploy this?
 

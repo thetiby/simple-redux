@@ -22,7 +22,7 @@ const plugins = [
     compress: {
       warnings: false
     }
-  }),
+  })
 ];
 
 module.exports = {

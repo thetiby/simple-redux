@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
 import { Link } from 'react-router';
+import React from 'react';
 
-export default class NotFoundView extends Component {
-  render () {
+export default () => {
     return (
-      <div className='container text-center'>
+      <div>
         <h1>This is a demo 404 page!</h1>
         <hr />
         <Link to='/'>Back To Home View</Link>
       </div>
     );
-  }
-}
+};
