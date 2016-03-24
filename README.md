@@ -16,7 +16,7 @@ The provided boilerplate enables client-side ES6 via the following technologies:
 
 ### Installation
 
-Get the repo (clone, downlaod).
+Get the repo (clone/download).
 Install dependencies.
 
 ```
