@@ -27,7 +27,7 @@ TIP: if you are using npm `2.x` version  (check via `npm --v` command), run `npm
 
 ### White Label It
 
-- Update name, decsription, author, repository in `package.json`
+- Update name, description, author, repository in `package.json`
 
 
 ## Development
