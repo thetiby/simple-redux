@@ -21,7 +21,7 @@
   },
   "bugs": "https://github.com/thetiby/simple-redux/issues",
   "scripts": {
-    "start": "webpack-dev-server --config ./config/webpack.config.dev.js --hot --inline --progress",
+    "start": "webpack-dev-server --config ./config/webpack.config.dev.js --hot --inline --progress --history-api-fallback",
     "build": "SET NODE_ENV=production&&webpack -p --config ./config/webpack.config.prod.js --progress",
     "lint": "eslint config src/**/*.jsx",
     "test": "echo \"Error: no test specified\" && exit 1"
