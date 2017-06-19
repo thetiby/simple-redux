@@ -71,3 +71,5 @@ It is encouraged that you modify the webpack configs under `/config` to match yo
 ## Acknowledgement
 
 Thanks to [nicksp](https://github.com/nicksp) for [his boilerplate example](https://github.com/nicksp/redux-webpack-es6-boilerplate)
+
+test commit 
